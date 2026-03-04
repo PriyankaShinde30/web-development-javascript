@@ -20,3 +20,10 @@ Because of this, functions can be called before they are defined in the code.
 4. Temporal Dead Zone (TDZ)
 The Temporal Dead Zone is the time between when a variable is hoisted and when it is initialized.
 During this period, the variable cannot be accessed.
+
+Conclusion
+Hoisting is an important concept in JavaScript that explains why variables and functions behave differently when accessed before declaration.
+var is hoisted and initialized with undefined.
+let and const are hoisted but remain in the Temporal Dead Zone until initialized.
+Function declarations are fully hoisted and can be called before they appear in the code.
+Understanding hoisting helps developers avoid unexpected bugs and write more predictable JavaScript code.
