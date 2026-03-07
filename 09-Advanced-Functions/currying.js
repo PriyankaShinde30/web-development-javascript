@@ -1,10 +1,13 @@
-function multiply(a) {
+function add(a) {
     return function(b) {
-        return a * b;
-    };
+        return a + b;
+    }
 }
 
-const multiplyBy2 = multiply(2);
+const addTwo = add(3);
+console.log(addTwo(5));
 
-console.log(multiplyBy2(5));
-console.log(multiplyBy2(10));
+//currying with arrow functions 
+const addition = a => b => a + b;
+console.log(addition(5)(3));
+

@@ -1,3 +1,5 @@
+// Memoization Example
+
 function memoize(fn) {
 
     const cache = {};

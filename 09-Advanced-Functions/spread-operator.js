@@ -1,5 +1,3 @@
-// Spread Operator Example
-
 const arr1 = [1,2,3];
 const arr2 = [4,5,6];
 
@@ -9,12 +7,12 @@ console.log(mergedArray);
 
 const user = {
     name: "Priyanka",
-    age: 22
+    age: 21
 };
 
-const updatedUser = {
+const user1 = {
     ...user,
     city: "Mumbai"
 };
 
-console.log(updatedUser);
+console.log(user1);
